@@ -20,7 +20,7 @@ export const useQuestionsStore = create<State>()(persist((set, get) => {
     questions: [],
     currentQuestion: 0,
     fetchQuestions: async (limit: number) => {
-      const rest = await fetch('http://localhost:5173/data.json')
+      const rest = await fetch('https://raw.githubusercontent.com/dimudev/JavaScript-Quizz/main/public/data.json')
       const json = await rest.json()
       const questions = json.sort(() => Math.random() - 0.5).slice(0, limit)
       set({ questions })
