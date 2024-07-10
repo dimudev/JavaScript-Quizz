@@ -1,0 +1,207 @@
+ [
+  {
+    "id": 1,
+    "question": "¿Cuál será el resultado del siguiente código?",
+    "code": "console.log(2 + 2);",
+    "answers": [
+      "3",
+      "4",
+      "5",
+      "22"
+    ],
+    "correctAnswer": 1,
+    "successMessage": "¡Correcto! El resultado es 4 porque 2 + 2 es igual a 4.",
+    "errorMessage": "Incorrecto. Recuerda que 2 + 2 es igual a 4."
+  },
+  {
+    "id": 2,
+    "question": "¿Qué valor se imprimirá en la consola?",
+    "code": "let x = '5';\nlet y = 2;\nconsole.log(x * y);",
+    "answers": [
+      "10",
+      "7",
+      "NaN",
+      "'52'"
+    ],
+    "correctAnswer": 0,
+    "successMessage": "¡Correcto! El valor es 10 porque '5' se convierte en número y 5 * 2 es igual a 10.",
+    "errorMessage": "Incorrecto. Ten en cuenta que '5' se convierte en número y 5 * 2 es igual a 10."
+  },
+  {
+    "id": 3,
+    "question": "¿El siguiente código arroja un error?",
+    "code": "const myVar = 10;\nmyVar = 20;",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correctAnswer": 0,
+    "successMessage": "¡Correcto! Arroja un error porque no se puede reasignar una constante.",
+    "errorMessage": "Incorrecto. Recuerda que las constantes no pueden ser reasignadas."
+  },
+  {
+    "id": 4,
+    "question": "¿Cuál será el resultado del siguiente código?",
+    "code": "let arr = [1, 2, 3];\nconsole.log(arr.length);",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "undefined"
+    ],
+    "correctAnswer": 1,
+    "successMessage": "¡Correcto! El tamaño del array es 3 porque contiene tres elementos.",
+    "errorMessage": "Incorrecto. Ten en cuenta que el array contiene tres elementos, así que su tamaño es 3."
+  },
+  {
+    "id": 5,
+    "question": "¿Qué imprimirá la consola?",
+    "code": "let name = 'John';\nlet message = `Hello, ${name}!`;\nconsole.log(message);",
+    "answers": [
+      "Hello, John!",
+      "Hello, ${name}!",
+      "Hello, John",
+      "Hello, undefined!"
+    ],
+    "correctAnswer": 0,
+    "successMessage": "¡Correcto! La consola imprimirá 'Hello, John!' gracias a la interpolación de cadenas.",
+    "errorMessage": "Incorrecto. Recuerda que la interpolación de cadenas con ` permite insertar variables como ${name}."
+  },
+    {
+      "id": 6,
+      "question": "¿Cuál será el resultado del siguiente código?",
+      "code": "console.log(10 / 2);",
+      "answers": [
+        "2",
+        "5",
+        "10",
+        "0"
+      ],
+      "correctAnswer": 7,
+      "successMessage": "¡Correcto! El resultado es 5 porque 10 dividido por 2 es igual a 5.",
+      "errorMessage": "Incorrecto. Recuerda que 10 dividido por 2 es igual a 5."
+    },
+    {
+      "id": 7,
+      "question": "¿Qué valor se imprimirá en la consola?",
+      "code": "let a = 3;\nlet b = '3';\nconsole.log(a == b);",
+      "answers": [
+        "true",
+        "false",
+        "undefined",
+        "NaN"
+      ],
+      "correctAnswer": 0,
+      "successMessage": "¡Correcto! El valor es true porque '==' compara solo el valor, no el tipo.",
+      "errorMessage": "Incorrecto. Ten en cuenta que '==' compara solo el valor, no el tipo."
+    },
+    {
+      "id": 8,
+      "question": "¿El siguiente código arroja un error?",
+      "code": "let myVar;\nmyVar = 20;\nmyVar = 30;",
+      "answers": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correctAnswer": 1,
+      "successMessage": "¡Correcto! No arroja un error porque las variables declaradas con let pueden ser reasignadas.",
+      "errorMessage": "Incorrecto. Recuerda que las variables declaradas con let pueden ser reasignadas."
+    },
+    {
+      "id": 9,
+      "question": "¿Cuál será el resultado del siguiente código?",
+      "code": "let str = 'Hello';\nconsole.log(str.length);",
+      "answers": [
+        "3",
+        "4",
+        "5",
+        "undefined"
+      ],
+      "correctAnswer": 2,
+      "successMessage": "¡Correcto! La longitud de la cadena es 5 porque 'Hello' tiene cinco caracteres.",
+      "errorMessage": "Incorrecto. Ten en cuenta que la cadena 'Hello' tiene cinco caracteres, así que su longitud es 5."
+    },
+    {
+      "id": 10,
+      "question": "¿Qué imprimirá la consola?",
+      "code": "let num = 8;\nlet message = `The number is ${num * 2}`;\nconsole.log(message);",
+      "answers": [
+        "The number is 16",
+        "The number is 8",
+        "The number is ${num * 2}",
+        "The number is undefined"
+      ],
+      "correctAnswer": 0,
+      "successMessage": "¡Correcto! La consola imprimirá 'The number is 16' gracias a la interpolación de cadenas.",
+      "errorMessage": "Incorrecto. Recuerda que la interpolación de cadenas con ` permite insertar variables y expresiones como ${num * 2}."
+    },
+      {
+        "id": 11,
+        "question": "¿Cuál será el resultado del siguiente código?",
+        "code": "console.log(typeof 42);",
+        "answers": [
+          "'number'",
+          "'string'",
+          "'boolean'",
+          "'undefined'"
+        ],
+        "correctAnswer": 0,
+        "successMessage": "¡Correcto! El tipo de 42 es 'number'.",
+        "errorMessage": "Incorrecto. Recuerda que el tipo de 42 es 'number'."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué valor se imprimirá en la consola?",
+        "code": "let a = true;\nlet b = false;\nconsole.log(a && b);",
+        "answers": [
+          "true",
+          "false",
+          "undefined",
+          "NaN"
+        ],
+        "correctAnswer": 1,
+        "successMessage": "¡Correcto! El valor es false porque '&&' solo es true si ambos operandos son true.",
+        "errorMessage": "Incorrecto. Ten en cuenta que '&&' solo es true si ambos operandos son true."
+      },
+      {
+        "id": 13,
+        "question": "¿El siguiente código arroja un error?",
+        "code": "let myArray = [1, 2, 3];\nmyArray.push(4);",
+        "answers": [
+          "Verdadero",
+          "Falso"
+        ],
+        "correctAnswer": 1,
+        "successMessage": "¡Correcto! No arroja un error porque se puede modificar el contenido de un array declarado con let.",
+        "errorMessage": "Incorrecto. Recuerda que se puede modificar el contenido de un array declarado con let."
+      },
+      {
+        "id": 14,
+        "question": "¿Cuál será el resultado del siguiente código?",
+        "code": "let str = 'World';\nconsole.log('Hello, ' + str + '!');",
+        "answers": [
+          "Hello, World!",
+          "Hello, World",
+          "Hello, undefined!",
+          "Hello, str!"
+        ],
+        "correctAnswer": 0,
+        "successMessage": "¡Correcto! La cadena resultante es 'Hello, World!'.",
+        "errorMessage": "Incorrecto. Recuerda que la concatenación de cadenas produce 'Hello, World!'."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué imprimirá la consola?",
+        "code": "let x = 10;\nlet y = '20';\nconsole.log(x + Number(y));",
+        "answers": [
+          "1020",
+          "30",
+          "NaN",
+          "undefined"
+        ],
+        "correctAnswer": 1,
+        "successMessage": "¡Correcto! La consola imprimirá 30 porque '20' se convierte en número y 10 + 20 es igual a 30.",
+        "errorMessage": "Incorrecto. Recuerda que '20' se convierte en número y 10 + 20 es igual a 30."
+      }    
+]
+
